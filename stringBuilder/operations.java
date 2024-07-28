@@ -9,6 +9,10 @@ public class operations {
 		
 		//char at Index
 		System.out.println(sb.charAt(0));
+
+		//set CharAt index
+		sb.setCharAt(0, 'P');
+		System.out.println(sb);
 	}
 
 }
