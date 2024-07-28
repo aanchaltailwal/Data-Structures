@@ -17,6 +17,10 @@ public class operations {
 		//Insert at Index
 		sb.insert(0, 'S');
 		System.out.println(sb);
+
+		//delete the extra char
+		sb.delete(3,4);
+		System.out.println(sb);
 	}
 
 }
