@@ -13,6 +13,10 @@ public class operations {
 		//set CharAt index
 		sb.setCharAt(0, 'P');
 		System.out.println(sb);
+
+		//Insert at Index
+		sb.insert(0, 'S');
+		System.out.println(sb);
 	}
 
 }
