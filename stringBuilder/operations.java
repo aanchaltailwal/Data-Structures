@@ -21,6 +21,10 @@ public class operations {
 		//delete the extra char
 		sb.delete(3,4);
 		System.out.println(sb);
+
+		//append
+		sb.append(" " + "Tailwal");
+		System.out.println(sb);
 	}
 
 }
