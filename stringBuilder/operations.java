@@ -25,6 +25,9 @@ public class operations {
 		//append
 		sb.append(" " + "Tailwal");
 		System.out.println(sb);
+
+		//length
+		System.out.println(sb.length());
 	}
 
 }
