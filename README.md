@@ -1,6 +1,3 @@
-Here's a sample README content for your GitHub repository named `Data-Structures`:
-
----
 
 # Data-Structures
 
@@ -24,7 +21,7 @@ To get started with the repository:
 1. Clone the Repository:
 
    ```bash
-   git clone https://github.com/your-username/Data-Structures.git
+   git clone https://github.com/aanchaltailwal/Data-Structures.git
    ```
 
 2. Navigate to the Directory:
