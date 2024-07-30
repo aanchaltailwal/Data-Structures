@@ -21,7 +21,7 @@ To get started with the repository:
 1. Clone the Repository:
 
    ```bash
-   git clone https://github.com/aanchaltailwal/Data-Structures.git
+   git clone https://github.com/aanchaltailwal/Data-Structures
    ```
 
 2. Navigate to the Directory:
