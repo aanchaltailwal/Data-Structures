@@ -7,10 +7,10 @@ public class backTracking {
 			return;
 		}
 		
-		for(int i = 0; i<str.length();i++) {
-			char currChar = str.charAt(i);
-			String newStr = str.substring(0, i) + str.substring(i+1);
-			printPermutation(newStr, perm + currChar, idx+1);
+		for(int i = 0; i<str.length();i++) {   //loop for whole string
+			char currChar = str.charAt(i);          //after traversing whole string through loop will see which char should be in currChar
+			String newStr = str.substring(0, i) + str.substring(i+1);//for next char remove currChar so that rest could sit there
+			printPermutation(newStr, perm + currChar, idx+1); //call function
 		}
 	}
 
