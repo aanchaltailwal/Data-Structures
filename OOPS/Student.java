@@ -8,6 +8,9 @@ class info{
 		System.out.println(this.name);
 		System.out.println(this.age);
 	}
+	info(){
+		System.out.println("Constructor called");   //no parameterized constructor 
+		}
 	
 }
 
