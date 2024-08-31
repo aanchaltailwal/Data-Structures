@@ -2,6 +2,11 @@ package LinkedList;
 
 public class SingleLL {
 	Node head;
+	private int size;
+	
+	SingleLL(){
+		this.size = 0;
+	}
 	class Node{
 		String data;
 		Node next;
@@ -10,6 +15,7 @@ public class SingleLL {
 		Node(String data){
 			this.data = data;
 			this.next = null;
+			size++;
 		}
 	}
 	
@@ -58,13 +64,17 @@ public class SingleLL {
 			System.out.println("This list is empty");
 			return;
 		}
+		size--;
 		head = head.next;
 	}
+	
+	//delete Last
 	public void deleteLast() {
 		if(head == null) {
 			System.out.println("list is empty");
 			return;
 		}
+		size--;
 		if(head.next == null) {  //if only 1 node
 			head = null;
 			return;
@@ -77,6 +87,9 @@ public class SingleLL {
 			secondLast = secondLast.next;
 		}
 		secondLast.next = null;
+	}
+	public int getSize() {
+		return size;
 	}
 
 	public static void main(String[] args) {
@@ -92,6 +105,7 @@ public class SingleLL {
 		list.printList();
 		list.deleteLast();
 		list.printList();
+		System.out.println(list.getSize());
 
 	}
 
